@@ -3,7 +3,7 @@ from ics import Calendar
 import discord
 from datetime import datetime, timedelta
 
-PREFIX = os.environ['PREFIX']
+PREFIX = os.environ['/EPL']
 TOKEN = os.environ['TOKEN']
 
 # Discord 봇 구현
